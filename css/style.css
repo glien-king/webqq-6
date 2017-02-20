@@ -1,0 +1,123 @@
+*{margin:0; padding:0; list-style:none; text-decoration:none;}
+body{ overflow:hidden;}
+.login_page{
+    width:600px;
+    height:400px;
+    background:#ebebeb;
+    border:1px solid #000;
+    border-radius:15px;
+    margin:100px auto;
+}
+.login_page .face_box{
+    width:90px;
+    height:90px;
+    margin:0 auto;
+    position:relative;
+}
+.face_box a{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+    width:20px;
+    height:20px;
+    background:rgba(0,0,0,0.3);
+    color:#fff;
+    text-align:center;
+    line-height:20px;
+    display:none;
+}
+.face_box .prev{
+    left:0px;
+}
+.face_box .next{
+    right:0px;
+}
+.info_box{
+    text-align:center;
+}
+.chat_page{
+    width:800px;
+    height:600px;
+    border:1px solid #000;
+    background:#ebebeb;
+    margin:50px auto;
+    display:none;
+}
+.top_box{
+    height:50px;
+    border-bottom:2px solid #000;
+}
+.top_box img{
+    margin-top:-40px;
+    margin-left:50px;
+}
+.center{
+    height:550px;
+    overflow:hidden;
+}
+.l_box{
+    height:100%;
+    float:left;
+    width:600px;
+}
+
+.chat_box{
+    position:relative;
+    height:100%;
+    overflow:hidden;
+}
+.chat_list{
+    position:absolute;
+    top:0; left:0;
+}
+.user_box{
+    position:relative;
+    height:100%;
+    overflow:hidden;
+}
+.user_list{
+    position:absolute;
+    top:0; left:0;
+}
+.user_list li{
+    height:30px;
+    line-height:30px;
+    margin-bottom:5px;
+}
+.user_list li img{
+    width:30px;
+    height:30px;
+    vertical-align:middle;
+}
+.bar_box{
+    position:absolute;
+    top:0; right:0;
+    width:20px;
+    height:100%;
+    background:#999;
+}
+.bar_box .bar_btn{
+    position:absolute;
+    top:0; left:0;
+    width:100%;
+    height:40px;
+    background:#333;
+}
+
+.log_box{
+    height:400px;
+}
+.send_box{
+    height:148px;
+    border-top:2px solid #000;
+}
+.send_box textarea{
+    width:550px;
+    height:95%;
+}
+.r_box{
+    height:100%;
+    float:right;
+    width:198px;
+    border-left:2px solid #000;
+}
